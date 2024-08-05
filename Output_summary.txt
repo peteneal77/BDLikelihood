@@ -1,0 +1,14 @@
+Section 3 - Supplementary - Output
+----------------------------------
+
+Summary:
+Sim_data1 - First 199 inter-arrival times from the time-homogeneous birth-death process considered in the contour plots.
+Sim_data1_homo_exact - pre-calculated likelihood values using the exact likelihood.
+Sim_data1_homo_hybrid - pre-calculated likelihood values using the hybrid likelihood with M=50.
+
+The simulation study scenarios 1-4 are stored, for x=2,3,4,5, as:
+QAx.csv - Samples from the posterior distribution of the parameters using the approximate likelihood for scenario x-1.
+QEx.csv - Samples from the posterior distribution of the parameters using the exact likelihood for scenario x-1. 
+QHx.csv - Samples from the posterior distribution of the parameters using the hybrid likelihood for scenario x-1.
+
+For x=4 (scenario 3), the appendage b, for example, QE4b, denotes fixing L=100 in the MCMC run.
