@@ -1,0 +1,12 @@
+Country,Self_Isolate,Social_Distance,Public_Ban,School_Close,Lockdown
+Austria,16,16,10,14,16
+Belgium,10,14,12,14,18
+Denmark,12,13,12,13,18
+France,16,16,13,14,17
+Germany,6,12,22,14,22
+Italy,9,9,9,5,11
+Norway,15,16,12,13,24
+Spain,17,9,14,13,14
+Sweden,10,16,29,18,999
+Switzerland,2,16,13,14,20
+United_Kingdom,12,16,24,21,24
