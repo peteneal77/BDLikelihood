@@ -1,0 +1,20 @@
+Datasets
+--------
+
+covid19-ecdc-data.csv - Data downloaded from Flaxman et al. (2020) - Cases and Deaths in 11 countries up to 05/05/2020
+
+Data_COV_World.csv - Covid-19 data worldwide Cases and Deaths (and more) up to 14/12/2020 downloaded from: 
+https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
+dataset used to extract data for analysis in the paper. For 11 countries of interest their are minor differences with covid19-ecdc-data.csv
+
+Euro_Death.csv - Data extracted from Data_COV_World.csv for 11 European countries of interest (using EuroCovidPrePrep.R). Only Death data (minor modification of data extraction code required to obtain Case data).
+
+Intervention_March.csv - Days in March 2020 when NPIs were implemented in European countries. Note Lockdown for Sweden is set equal to 999 to denote no Lockdown was implemented.
+
+DailyDataS2.csv - Simulated data (5 countries, 5 control measures) to mimic Covid-19 spread in Europe and the implementation of NPIs (control measures)
+R0: 4,3.5,4.5,3.8,4.2
+theta_control: 0.9,0.8,0.8,0.75,0.35
+mu: 0.1;  d: 0.1,0.08,0.09,0.11,0.12
+beta_Final: -0.15, -0.01,  0.07, -0.24,0.17
+
+SimControl2.csv - Dates on which control measures (relative to the day of the first detection) in DailyDataS2.csv
